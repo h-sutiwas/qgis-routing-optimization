@@ -250,7 +250,6 @@ mlartifacts/
 
 # DVC (we'll use this for data versioning)
 .dvc/cache
-qgis/thailand_map.qmd
-qgis/world_map.qmd
-qgis/thailand-251005.osm.pbf
-qgis/thailand-251005-free.shp.zip
+*.pbf
+*.qmd
+*.zip
