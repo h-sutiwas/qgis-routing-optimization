@@ -205,3 +205,48 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large geospatial files
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.geojson  # if large
+*.gpkg     # GeoPackage databases can be huge
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# QGIS project files (these reference local paths)
+*.qgs
+*.qgz
+
+# ML models and large artifacts
+models/*.pkl
+models/*.h5
+models/*.pt
+*.model
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# Environment
+.env.local
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC (we'll use this for data versioning)
+.dvc/cache
