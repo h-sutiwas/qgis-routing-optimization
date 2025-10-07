@@ -232,15 +232,6 @@ models/*.h5
 models/*.pt
 *.model
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.ipynb_checkpoints/
-*.egg-info/
-.venv/
-venv/
-
 # Environment
 .env.local
 
